@@ -13,7 +13,7 @@ To run this application, start the sbt shell and type
 This will start the notification service at port 9001. Please hit the /setup endpoint that will create the table in H2 in memory database and insert the data into the database. This is purposely created as it isOS agnostic works across all platforms.
 
 ## Tech stack used
-Scala, Play framework, H2 database(in memory), Slick, Scalafmt for code hygiene
+Scala, Play framework, H2 database(in memory), Slick, Scalafmt for code hygiene, Scalatest, Mockito
 
 H2 has been specifically chosen to avoid any external DB installations.
 
@@ -30,4 +30,4 @@ There are three endpoints
 
 #### Tech Debt
 
-Unit test cases missing for a lot of files
+Unit test cases missing for all files. So sorry for that. Test cases are same as those written in User-Service
